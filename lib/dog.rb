@@ -5,7 +5,7 @@ attr_accessor :name
     @name = name
     @@all << name
   end
-  def self.all(dog)
+  def self.all
     @@all.each do |dog|
       dog.object_id
     end
