@@ -6,8 +6,7 @@ attr_accessor :name
     @@all << name
   end
   def self.all
-    @@all.each do |dog|
-      dog.inspect
+    @@all.inspect
     end
   end
 
