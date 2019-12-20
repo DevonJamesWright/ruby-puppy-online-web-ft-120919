@@ -7,7 +7,7 @@ attr_accessor :name
   end
   def self.all
     @@all.each do |dog|
-      dog.object_id
+      dog.inspect
     end
   end
 
