@@ -20,9 +20,9 @@ attr_accessor :name
           
         end
         def self.print_all
-            print "Pluto"
-            print "Fido"
-            print "Maddy"
+            print "Pluto" \n
+            print "Fido"/n 
+            print "Maddy"/n
         
         end
 
