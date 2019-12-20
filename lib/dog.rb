@@ -7,7 +7,6 @@ attr_accessor :name
   end
   def self.all
     @@all.inspect
-    end
   end
 
 
