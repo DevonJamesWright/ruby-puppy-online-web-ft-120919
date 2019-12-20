@@ -14,7 +14,6 @@ attr_accessor :name
           @@all.clear
       end
   def save
-    @@all << @name
 end 
 
 
