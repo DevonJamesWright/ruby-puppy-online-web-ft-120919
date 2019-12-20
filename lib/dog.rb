@@ -6,7 +6,7 @@ attr_accessor :name
     @@all << name
   end
   def self.all
-    
+    @@all
   end
 
 
