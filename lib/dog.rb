@@ -5,9 +5,12 @@ attr_accessor :name
     @name = name
     @@all << name
   end
-  def self.all
-    @@all.inspect
-  end
+
+    def self.all
+      @@all.inspect
+    end
+
+      def self.clear_all
 
 
 
