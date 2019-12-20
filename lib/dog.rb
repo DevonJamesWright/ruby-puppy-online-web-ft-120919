@@ -20,7 +20,7 @@ attr_accessor :name
         def self.print_all
           @name = name
           @@all.each do |dog|
-            print self
+            print self.name
           end
         end
 
