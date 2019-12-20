@@ -17,8 +17,8 @@ attr_accessor :name
           @@all << self
           
         end
-        def print_all
-          
+        def self.print_all
+          @all.name
         end
 
 end
