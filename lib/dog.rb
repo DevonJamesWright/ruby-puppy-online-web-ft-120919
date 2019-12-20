@@ -15,7 +15,7 @@ attr_accessor :name
       end
         def save 
           @@all << @name
-          break
+          
         end
 
 end
