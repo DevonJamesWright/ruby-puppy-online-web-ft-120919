@@ -20,9 +20,7 @@ attr_accessor :name
           
         end
         def self.print_all
-            puts "Pluto"
-            puts "Fido"
-            puts "Maddy"
+            
         
         end
 
